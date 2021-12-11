@@ -1,0 +1,259 @@
+{% extends "layout.html" %} {% block header %}
+
+
+<div class="container">
+  <div class="hero">
+    <div class="row mb-5 new-hero">
+      <div class="col-md-12">
+        <p class="text-right">
+          <strong>Limited Time Special Offer:</strong> Get Immediate Access To
+My "Playbook To Millions" Video Training Package...
+        </p>
+      </div>
+
+      <div class="col-md-4 no-border offset-md-4" style="border-bottom: 3px solid #38bcdb; padding-bottom: 20px;">
+        <h2 class="text-right blue mobile-hide">CODING</h2>
+        <div class="line">
+          <hr>
+        </div>
+        <p class="text-right">
+          Coding Boot Camp equps students skills for full-stack web development
+          through dynamic, in-person classes.
+        </p>
+      </div>
+    </div>
+    <div class="row margin-top-md">
+      <div class="col-md-5 no-padding">
+        <form class="hero-form">
+          <h3 class="text-center black">GET PROGRAM INFO</h3>
+          <p class="black my-2">Step 1 of 3</p>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="First name" />
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Last name" />
+          </div>
+          <button type="submit" class="btn btn-primary">CONTINUE <i class="fas fa-chevron-right"></i></button>
+        </form>
+      </div>
+
+      <div class="col-md-4 my-auto offset-md-3 mobile-hide">
+        <h2 class="text-right">Data Analytics</h2>
+        <p class="text-right" style="border-bottom: 3px solid white; padding-bottom: 20px;">
+          Data Boot Camp equips students with the key skills for full-stack well
+          development through dynamic, in-person classes.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+{% endblock %} {% block main %}
+
+<div class="featuring">
+  <div class="container">
+    <h2 class="text-center"><u>Featuring</u></h2>
+    <div class="content my-4">
+      <div class="col-md-4 flex-item text-center">
+        <img class="icon my-3" src="/img/icons/data_coding.svg" alt="data coding" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+          consequatur architecto est in alias labore cumque necessitatibus
+          eveniet iusto maiores quos, harum rem fugiat quisquam pariatur
+          explicabo officiis reprehenderit obcaecati!
+        </p>
+
+        <img class="icon my-3" src="/img/icons/benefit.svg" alt="benefit" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+          consequatur architecto est in alias labore cumque necessitatibus
+          eveniet iusto maiores quos, harum rem fugiat quisquam pariatur
+          explicabo officiis reprehenderit obcaecati!
+        </p>
+      </div>
+      <div class="col-md-4 flex-item text-center">
+        <img class="phone" src="/img/phone.png" alt="cell phone" />
+      </div>
+      <div class="col-md-4 flex-item text-center">
+        <img class="icon my-3" src="/img/icons/time.svg" alt="time" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+          consequatur architecto est in alias labore cumque necessitatibus
+          eveniet iusto maiores quos, harum rem fugiat quisquam pariatur
+          explicabo officiis reprehenderit obcaecati!
+        </p>
+
+        <img class="icon my-3" src="/img/icons/complete_proj.svg" alt="complete project" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+          consequatur architecto est in alias labore cumque necessitatibus
+          eveniet iusto maiores quos, harum rem fugiat quisquam pariatur
+          explicabo officiis reprehenderit obcaecati!
+        </p>
+      </div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut magnam impedit
+      labore vero quas quo?
+    </p>
+  </div>
+</div>
+
+<div class="story">
+  <div class="container">
+    <h2 class="text-center blue mb-4"><u>Our Story</u></h2>
+    <p class="story-info">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis
+      consectetur illum aliquid veniam suscipit magnam. Iure, ut! Facilis
+      laboriosam ad accusamus aspernatur, laudantium laborum alias veniam
+      quibusdam vel pariatur sit omnis nesciunt dolores eligendi sunt magnam
+      veritatis ipsam delectus cum. Assumenda reiciendis eum alias quas
+      consequatur. Tenetur, sapiente quos!
+    </p>
+  </div>
+</div>
+
+<div class="faq">
+  <div class="container">
+    <h2 class="text-left black mb-4"><u>Frequently Asked Questions</u></h2>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button id="acc-btn" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
+              aria-expanded="false" aria-controls="collapseOne">
+              <h4 class="black light-weight"></a><i id="chev" class="fas fa-chevron-down blue"></i> When Does the
+                Program Start?
+              </h4>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button id="acc-btn" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              <h4 class="black light-weight"><i id="chev" class="fas fa-chevron-down blue"></i> Can I keep working
+                while studying
+                at the Trilogy Data Science and Analytics Boot Camp?</h4>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button id="acc-btn" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              <h4 class="black light-weight"><i class="faq-chev fas fa-chevron-down blue"></i> How long does it take
+                to complete
+                the program?</h4>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button id="acc-btn" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+              aria-expanded="false" aria-controls="collapseFour">
+              <h4 class="black light-weight"><i id="chev" class="fas fa-chevron-down blue"></i> Do you provide career
+                placement
+                support?</h4>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button id="acc-btn" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+              aria-expanded="false" aria-controls="collapseFive">
+              <h4 class="black light-weight"><i id="chev" class="fas fa-chevron-down blue"></i> Do I need to have
+                previous
+                experience in programming or data analytics before applying?</h4>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h5 class="mb-0">
+            <button id="acc-btn" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+              aria-expanded="false" aria-controls="collapseSix">
+
+              <h4 class="black light-weight"><i id="chev" class="fas fa-chevron-down blue"></i> What Sets your boot
+                camp apart
+                from others I can join Trilogy</h4>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
