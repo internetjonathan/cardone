@@ -38,8 +38,11 @@ header {
     border: none !important;
     background-color: transparent !important;
   }
-  .video{
-    text-align: center;
+
+  .wistia_embed {
+    @include mobile{
+      height: 200px !important;
+    }
   }
 }
 
