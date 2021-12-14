@@ -7,10 +7,10 @@ Recreated the a provided landing page using any language and framework of my cho
 - [Features](#features)
 
 ## Installation
-This is using Gulp and there may be issues running gulp tasks with certain versions of Node.
+This is project utilizes gulp to numerous tasks and has showed some issues with Node depending on gulp version and Node version.
 To start development enviroment Run:
 -npm i
 -gulp
 
 ## Features
-Gulp has been used to operate multiple tasks to streamline development.  Gulp is compiling and minifying Sass into  a single css file, compiling pages using the Nunjucks tempalting engine, compiling and minifying all javascript into a single file,  opening a socket and watching for changes and rendering changes in real time. Piping and minifying all changes in the development enviroment to a dist folder for deployment.
+Gulp has been used to streamline development by comepleting multple tasks to compile a working working product that can then be deployed.  Gulp is compiling and minifying Sass into a single css file, compiling pages using the Nunjucks tempalting engine, compiling and minifying all javascript into a single file,  opening a socket and watching for changes then rendering changes in real time.
