@@ -7,7 +7,7 @@ Recreated the a provided landing page using any language and framework of my cho
 - [Features](#features)
 
 ## Installation
-This is project utilizes gulp to numerous tasks and has showed some issues with Node depending on gulp version and Node version.
+This is project utilizes gulp to complete numerous tasks and has showed some issues with Node depending on gulp version and Node version.
 To start development enviroment Run:
 -npm i
 -gulp
